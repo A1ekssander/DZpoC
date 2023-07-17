@@ -3,3 +3,12 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
+Console.Write("Введите любое положительное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number < 1);
+{
+Console.Write("Ошибка ввода");
+}
+
+if (i%2==0);
