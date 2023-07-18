@@ -3,12 +3,16 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.Write("Введите любое положительное число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
 
-if (number < 1);
-{
-Console.Write("Ошибка ввода");
-}
+// int evenNumber = 2;
 
-if (i%2==0);
+// if(number > 1)
+// {
+//     while(evenNumber <= number)
+//     {
+//         Console.Write(evenNumber + " ");
+//         evenNumber = evenNumber + 2;
+//     }
+// }
