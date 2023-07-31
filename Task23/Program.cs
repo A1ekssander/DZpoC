@@ -15,7 +15,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 TableCube(number);
 
-void TableCube(int numb)
+void TableCube(int num)
 {
   int count=1;
   while (count <= num)
