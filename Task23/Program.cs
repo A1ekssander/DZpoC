@@ -7,31 +7,21 @@
 // 4 | 64
 // 5 | 125
 
-Console.Write("Введите число: ");
-int cube = Convert.ToInt32(Console.ReadLine());
+// исправлено спец для сдачи дз!
 
-void Cube(int[] cube)
-{
-  int counter = 0;
-  int length = cube.Length;
-  while (counter <  length)
-  {
-    cube[counter] = Convert.ToInt32(Math.Pow(counter, 3));
-    counter++;
-  }
-}
 
-void PrintArry(int[] coll)
+Console.Write("Введите целое положительное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+TableCube(number);
+
+void TableCube(int numb)
 {
-  int count = coll.Length;
-  int index = 0;
-  while(index < count)
+  int count=1;
+  while (count <= num)
   {
-    Console.Write(coll[index]+ " ");
-    index++;
+    Console.WriteLine($"{count} {count*count*count}");
+    count++;
   }
 } 
-
-int[] arry = new int[cube+1];
-Cube(arry);
-PrintArry(arry);
+    
