@@ -32,4 +32,5 @@ if (number1 < 0 || number2 < 0) //здесь проверяем чтобы чи�
     Console.WriteLine("Неправильный ввод(отрицательное число)");
     return;
 }
+
 NaturalNumbersRange(number1, number2);
